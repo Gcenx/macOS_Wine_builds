@@ -4,6 +4,7 @@
  
  Currently avalible on releases section;
  - `wine-staging-5.9-osx64.tar.gz`
+ - `wine-devel-5.9-osx64.tar.gz`
 
 _Please Note;_ these will function like macOS pkg releases but are packaged within a `.tar.gz`.\
 I won't be making pkg installer, these packages include `wine` and `wine64`
