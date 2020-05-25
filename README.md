@@ -18,7 +18,7 @@ I won't be making pkg installer, these packages include `wine` and `wine64`
 - Mingw-w64-binutils with [Proton patches](https://github.com/GloriousEggroll/proton-ge-custom/tree/proton-ge-5-MF/mingw-w64-patches)
 - Dependencies are build using macports with [macports-wine](https://github.com/Gcenx/macports-wine)
 - XQuartz-2.7.7 was used for X11
-- Build system includes a fix for [Bug 49199](https://bugs.winehq.org/show_bug.cgi?id=49199)
+- Build system includes fixes for [Bug 49199](https://bugs.winehq.org/show_bug.cgi?id=49199)
 
 ## Configure Options used;
 ```
@@ -64,7 +64,7 @@ I won't be making pkg installer, these packages include `wine` and `wine64`
 --with-tiff \
 --without-udev \
 --with-unwind \
---without-usb \
+--with-usb \
 --without-v4l2 \
 --without-vkd3d \
 --without-xattr \
@@ -88,3 +88,9 @@ I won't be making pkg installer, these packages include `wine` and `wine64`
 --x-include=/opt/X11/include \
 --x-lib=/opt/X11/libb
 ```
+
+## gecko & mono are included;
+`wine-gecko` & `wine-mono` are included within these custom `Wine-*` packages, usually wine(64) will download and then install .msi packages into each and every wineprefix increasing prefix size instead the "shared" packages were used to help reduce prefix size
+
+## Don't open issues for wine issues!
+Any wine bugs or regressions report those to [Winehq Bugzilla](https://bugs.winehq.org/), for package related issues related to missing dylib or a dylib refusing to load on OS X 10.9 then open an issue so it can be resolved.
