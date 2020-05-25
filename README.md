@@ -64,14 +64,13 @@ I won't be making pkg installer, these packages include `wine` and `wine64`
 --with-tiff \
 --without-udev \
 --with-unwind \
---with-usb \
+--without-usb \
 --without-v4l2 \
 --without-vkd3d \
 --without-xattr \
 --with-xml \
 --without-xshm \
 --with-xslt \
---with-zlib \
 --without-va  \
 --with-osmesa \
 --with-xcomposite \
