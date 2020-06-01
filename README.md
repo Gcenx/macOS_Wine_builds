@@ -1,14 +1,13 @@
 # Winehq style macOS Builds
- 
-Currently Winehq is not providing macOS builds until they replace the now deprecated builder,\
-so as I temporary measure I'll attach `wine-devel` & `wine-staging` builds here that includes most\
-dependencies meaning XQuartz-2.7.7 or later is not required unless you desire to use X11 over macDriver.
+
+Currently Winehq is not providing macOS builds until they replace the now deprecated builder, as a temporary measure I'll attach `wine-devel` & `wine-staging` builds here that includes most dependencies, meaning XQuartz-2.7.7 or later is not required unless you desire to use X11 over macDriver.
  
  ### Currently avalible on releases;
  - `wine-devel-5.9-osx64.tar.gz`
  - `wine-staging-5.9-osx64.tar.gz`
 
-_Please Note;_ these will function like macOS pkg releases but are packaged within a `.tar.gz`.\
+##### _Please Note;_
+These will function like macOS pkg releases but are packaged within a `.tar.gz`.\
 I won't be making pkg installer, these packages include `wine` and `wine64`
 
 ## Build environment configuration;
@@ -23,7 +22,8 @@ I won't be making pkg installer, these packages include `wine` and `wine64`
 ## Configure Options used;
 ```
 --disable-option-checking \
---disable-tests --without-alsa \
+--disable-tests \
+--without-alsa \
 --without-capi \
 --with-cms \
 --with-coreaudio \
@@ -69,7 +69,6 @@ I won't be making pkg installer, these packages include `wine` and `wine64`
 --without-vkd3d \
 --without-xattr \
 --with-xml \
---without-xshm \
 --with-xslt \
 --without-va  \
 --with-osmesa \
@@ -86,7 +85,7 @@ I won't be making pkg installer, these packages include `wine` and `wine64`
 --with-xxf86vm \
 --with-x \
 --x-include=/opt/X11/include \
---x-lib=/opt/X11/libb
+--x-lib=/opt/X11/lib
 ```
 
 ## gecko & mono are included;
