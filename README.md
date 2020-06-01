@@ -1,6 +1,8 @@
 # Winehq style macOS Builds
 
 Currently Winehq is not providing macOS builds until they replace the now deprecated builder, as a temporary measure I'll attach `wine-devel` & `wine-staging` builds here that includes most dependencies, meaning XQuartz-2.7.7 or later is not required unless you desire to use X11 over macDriver.
+
+![Downloads count](https://img.shields.io/github/downloads/gcenx/macOS_Wine_builds/total.svg)
  
  ### Currently avalible on releases;
  - `wine-devel-5.9-osx64.tar.gz`
