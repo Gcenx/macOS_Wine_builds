@@ -5,14 +5,31 @@ Currently Winehq is not providing macOS builds until they replace the now deprec
 ![Downloads count](https://img.shields.io/github/downloads/gcenx/macOS_Wine_builds/total.svg)
  
  ### Currently avalible on releases;
- - `wine-stable-5.0.1-osx64.zip`
+ - `wine-stable-5.0.1-osx64.tar.gz`
  - `wine-devel-5.9-osx64.tar.gz`
  - `wine-staging-5.9-osx64.tar.gz`
 
-##### _Please Note;_
+#### _Please Note;_
 These will function like macOS pkg releases but are packaged within a `.tar.gz`.\
-Future packages will be using '.zip' so custom 'brew' packages can be created.\
 I won't be making pkg installer, these packages include `wine` and `wine64`
+
+### How to install using brew;
+First add my tap
+```
+brew tap gcenx/wine
+```
+##### The tap provides;
+- `gcenx-wine-stable` (wine-stable-5.0.1)
+- `gcenx-wine-devel` (wine-devel-5.9)
+- `gcenx-wine-staging` (wine-staging-5.9)
+Next select the desired wine package to be installed, for an example I'll select `gcenx-wine-stable`
+```
+brew cask install gcenx-wine-stable
+```
+This will install `Wine Stable` into `/Applications` and function as the official brew cask would (but _doesn't_ require XQuartz)\
+
+#### How manually to install;
+Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine_builds/releases) unpack, now move the `Wine *` bundle to `/Applications` and use as you would a Winehq release.
 
 ## Build environment configuration;
 - CodeWeavers custom llvm/clang-8
