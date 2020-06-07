@@ -5,11 +5,13 @@ Currently Winehq is not providing macOS builds until they replace the now deprec
 ![Downloads count](https://img.shields.io/github/downloads/gcenx/macOS_Wine_builds/total.svg)
  
  ### Currently avalible on releases;
+ - `wine-stable-5.0.1-osx64.zip`
  - `wine-devel-5.9-osx64.tar.gz`
  - `wine-staging-5.9-osx64.tar.gz`
 
 ##### _Please Note;_
 These will function like macOS pkg releases but are packaged within a `.tar.gz`.\
+Future packages will be using '.zip' so custom 'brew' packages can be created.\
 I won't be making pkg installer, these packages include `wine` and `wine64`
 
 ## Build environment configuration;
