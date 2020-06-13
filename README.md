@@ -22,7 +22,8 @@ brew tap gcenx/wine
 - `gcenx-wine-stable` (wine-stable-5.0.1)
 - `gcenx-wine-devel` (wine-devel-5.9)
 - `gcenx-wine-staging` (wine-staging-5.9)
-Next select the desired wine package to be installed, for an example I'll select `gcenx-wine-stable`
+
+##### Next select the desired wine package to be installed, for an example I'll select `gcenx-wine-stable`
 ```
 brew cask install gcenx-wine-stable
 ```
