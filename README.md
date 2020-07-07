@@ -8,8 +8,10 @@ Currently Winehq is not providing macOS builds until they replace the now deprec
  - `wine-stable-5.0.1-osx64.tar.gz`
  - `wine-devel-5.9-osx64.tar.gz`
  - `wine-devel-5.11-osx64.tar.gz`
+ - `wine-devel-5.12-osx64.tar.gz`
  - `wine-staging-5.9-osx64.tar.gz`
  - `wine-staging-5.11-osx64.tar.gz`
+ - `wine-staging-5.12.1-osx64.tar.gz`
 
 #### _Please Note;_
 These will function like macOS pkg releases but are packaged within a `.tar.gz`.\
@@ -22,8 +24,8 @@ brew tap gcenx/wine
 ```
 ##### The tap provides;
 - `gcenx-wine-stable` (wine-stable-5.0.1)
-- `gcenx-wine-devel` (wine-devel-5.9)
-- `gcenx-wine-staging` (wine-staging-5.9)
+- `gcenx-wine-devel` (wine-devel-5.12)
+- `gcenx-wine-staging` (wine-staging-5.12.1)
 
 ##### Next select the desired wine package to be installed, for an example I'll select `gcenx-wine-stable`
 ```
