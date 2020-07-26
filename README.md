@@ -9,9 +9,11 @@ Currently Winehq is not providing macOS builds until they replace the now deprec
  - `wine-devel-5.9-osx64.tar.gz`
  - `wine-devel-5.11-osx64.tar.gz`
  - `wine-devel-5.12-osx64.tar.gz`
+ - `wine-devel-5.13-osx64.tar.gz`
  - `wine-staging-5.9-osx64.tar.gz`
  - `wine-staging-5.11-osx64.tar.gz`
  - `wine-staging-5.12.1-osx64.tar.gz`
+ - `wine-staging-5.13-osx64.tar.gz`
 
 #### _Please Note;_
 These will function like macOS pkg releases but are packaged within a `.tar.gz`.\
