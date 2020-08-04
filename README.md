@@ -35,7 +35,7 @@ brew tap gcenx/wine
 ```
 brew cask install --no-quarantine gcenx-wine-stable
 ```
-This will install `Wine Stable` into `/Applications` and function as the official brew cask would (but _doesn't_ require XQuartz)\
+This will install `Wine Stable` into `/Applications` and function as the official brew cask would (but _doesn't_ require XQuartz)
 
 #### How manually to install;
 Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine_builds/releases) unpack, now move the `Wine *` bundle to `/Applications` and use as you would a Winehq release.
@@ -48,7 +48,6 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 - Dependencies are build using macports with [macports-wine](https://github.com/Gcenx/macports-wine)
 - XQuartz-2.7.7 was used for X11
 - Build system includes fixes for [Bug 49199](https://bugs.winehq.org/show_bug.cgi?id=49199)
-- wine(64) is compiled using a patched MacOSX10.14.sdk
 
 ## Configure Options used;
 ```
