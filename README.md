@@ -10,10 +10,12 @@ Currently Winehq is not providing macOS builds until they replace the now deprec
  - `wine-devel-5.11-osx64.tar.gz`
  - `wine-devel-5.12-osx64.tar.gz`
  - `wine-devel-5.13-osx64.tar.gz`
+ - `wine-devel-5.14-osx64.tar.gz`
  - `wine-staging-5.9-osx64.tar.gz`
  - `wine-staging-5.11-osx64.tar.gz`
  - `wine-staging-5.12.1-osx64.tar.gz`
  - `wine-staging-5.13-osx64.tar.gz`
+ - `wine-staging-5.14-osx64.tar.gz`
 
 #### _Please Note;_
 These will function like macOS pkg releases but are packaged within a `.tar.gz`.\
@@ -26,8 +28,8 @@ brew tap gcenx/wine
 ```
 ##### The tap provides;
 - `gcenx-wine-stable` (wine-stable-5.0.1)
-- `gcenx-wine-devel` (wine-devel-5.12)
-- `gcenx-wine-staging` (wine-staging-5.12.1)
+- `gcenx-wine-devel` (wine-devel-5.14)
+- `gcenx-wine-staging` (wine-staging-5.14)
 
 ##### Next select the desired wine package to be installed, for an example I'll select `gcenx-wine-stable`
 ```
@@ -46,6 +48,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 - Dependencies are build using macports with [macports-wine](https://github.com/Gcenx/macports-wine)
 - XQuartz-2.7.7 was used for X11
 - Build system includes fixes for [Bug 49199](https://bugs.winehq.org/show_bug.cgi?id=49199)
+- wine(64) is compiled using a patched MacOSX10.14.sdk
 
 ## Configure Options used;
 ```
