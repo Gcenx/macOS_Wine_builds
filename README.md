@@ -5,7 +5,7 @@ Currently Winehq is not providing macOS builds until they replace the now deprec
 ![Downloads count](https://img.shields.io/github/downloads/gcenx/macOS_Wine_builds/total.svg)
  
  ### Currently avalible on releases;
- - `wine-devel-5.17-osx64.tar.gz` (includes patch for [Bugzilla 49624](https://bugs.winehq.org/show_bug.cgi?id=49624))
+ - `wine-devel-5.17-osx64.tar.gz` (includes patchs for [Bugzilla 49624](https://bugs.winehq.org/show_bug.cgi?id=49624))
  - `wine-devel-5.16-osx64.tar.gz`
  - `wine-devel-5.15-osx64.tar.gz`
  - `wine-devel-5.14-osx64.tar.gz`
@@ -16,7 +16,7 @@ Currently Winehq is not providing macOS builds until they replace the now deprec
  - `wine-stable-5.0.2-1-osx64.tar.gz` (includes patch for [Bugzilla 49774](https://bugs.winehq.org/show_bug.cgi?id=49774))
  - `wine-stable-5.0.2-osx64.tar.gz`
  - `wine-stable-5.0.1-osx64.tar.gz`
- - `wine-staging-5.17-osx64.tar.gz` (includes patch for [Bugzilla 49624](https://bugs.winehq.org/show_bug.cgi?id=49624))
+ - `wine-staging-5.17-osx64.tar.gz` (includes patchs for [Bugzilla 49624](https://bugs.winehq.org/show_bug.cgi?id=49624))
  - `wine-staging-5.16-osx64.tar.gz`
  - `wine-staging-5.15-osx64.tar.gz`
  - `wine-staging-5.14-osx64.tar.gz`
@@ -35,7 +35,7 @@ First add my tap
 brew tap gcenx/wine
 ```
 ##### The tap provides;
-- `gcenx-wine-stable` (wine-stable-5.0.2)
+- `gcenx-wine-stable` (wine-stable-5.0.2-1)
 - `gcenx-wine-devel` (wine-devel-5.17)
 - `gcenx-wine-staging` (wine-staging-5.17.2)
 
