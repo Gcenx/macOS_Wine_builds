@@ -5,15 +5,17 @@ Currently Winehq is not providing macOS builds until they replace the now deprec
 ![Downloads count](https://img.shields.io/github/downloads/gcenx/macOS_Wine_builds/total.svg)
  
  ### Currently avalible on releases;
+ - `wine-devel-5.17-osx64.tar.gz`
  - `wine-devel-5.16-osx64.tar.gz`
  - `wine-devel-5.15-osx64.tar.gz`
  - `wine-devel-5.14-osx64.tar.gz`
  - `wine-devel-5.13-osx64.tar.gz`
- - `wine-devel-5.11-osx64.tar.gz`
  - `wine-devel-5.12-osx64.tar.gz`
+ - `wine-devel-5.11-osx64.tar.gz`
  - `wine-devel-5.9-osx64.tar.gz`
  - `wine-stable-5.0.2-osx64.tar.gz`
  - `wine-stable-5.0.1-osx64.tar.gz`
+ - `wine-staging-5.17-osx64.tar.gz`
  - `wine-staging-5.16-osx64.tar.gz`
  - `wine-staging-5.15-osx64.tar.gz`
  - `wine-staging-5.14-osx64.tar.gz`
@@ -33,8 +35,8 @@ brew tap gcenx/wine
 ```
 ##### The tap provides;
 - `gcenx-wine-stable` (wine-stable-5.0.2)
-- `gcenx-wine-devel` (wine-devel-5.16)
-- `gcenx-wine-staging` (wine-staging-5.16)
+- `gcenx-wine-devel` (wine-devel-5.17)
+- `gcenx-wine-staging` (wine-staging-5.17.2)
 
 ##### Next select the desired wine package to be installed, for an example I'll select `gcenx-wine-stable`
 ```
