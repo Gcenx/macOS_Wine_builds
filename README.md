@@ -5,6 +5,7 @@ Currently Winehq is not providing macOS builds until they replace the now deprec
 ![Downloads count](https://img.shields.io/github/downloads/gcenx/macOS_Wine_builds/total.svg)
  
  ### Currently avalible on releases;
+ - `wine-devel-5.18-osx64.tar.gz`
  - `wine-devel-5.17-osx64.tar.gz` (includes patchs for [Bugzilla 49624](https://bugs.winehq.org/show_bug.cgi?id=49624))
  - `wine-devel-5.16-osx64.tar.gz`
  - `wine-devel-5.15-osx64.tar.gz`
