@@ -55,10 +55,11 @@ This will install `Wine Stable` into `/Applications` and function as the officia
 Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine_builds/releases) unpack, now move the `Wine *` bundle to `/Applications` and use as you would a Winehq release.
 
 ## Build environment configuration;
-- CodeWeavers custom llvm/clang-8
+- CodeWeavers custom llvm/clang-8 (Wine Crossover only)
 - MacOSX10.13.sdk (with QuickTime.framework from MacOSX10.11.sdk)
-- Mingw-w64-9.3.0
-- Mingw-w64-binutils with [Proton patches](https://github.com/GloriousEggroll/proton-ge-custom/tree/proton-ge-5-MF/mingw-w64-patches)
+- Mingw-w64-v8
+- Mingw-gcc-10.2
+- Mingw-w64-binutils-2.35.1
 - Dependencies are build using macports with [macports-wine](https://github.com/Gcenx/macports-wine)
 - XQuartz-2.7.7 was used for X11
 - Build system includes fixes for [Bug 49199](https://bugs.winehq.org/show_bug.cgi?id=49199)
