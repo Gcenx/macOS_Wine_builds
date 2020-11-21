@@ -5,6 +5,7 @@ Currently Winehq is not providing macOS builds until they replace the now deprec
 ![Downloads count](https://img.shields.io/github/downloads/gcenx/macOS_Wine_builds/total.svg)
  
  ### Currently avalible on releases;
+ - `wine-devel-5.22-osx64.tar.7z` (includes workaround for [Bugzilla 49940](https://bugs.winehq.org/show_bug.cgi?id=49940))
  - `wine-devel-5.21-osx64.tar.7z` (includes workaround for [Bugzilla 49940](https://bugs.winehq.org/show_bug.cgi?id=49940))
  - `wine-devel-5.20-osx64.tar.7z` (includes workaround for [Bugzilla 49940](https://bugs.winehq.org/show_bug.cgi?id=49940))
  - `wine-devel-5.19-osx64.tar.7z`
@@ -21,6 +22,7 @@ Currently Winehq is not providing macOS builds until they replace the now deprec
  - `wine-stable-5.0.2-1-osx64.tar.gz` (includes patch for [Bugzilla 49774](https://bugs.winehq.org/show_bug.cgi?id=49774))
  - `wine-stable-5.0.2-osx64.tar.gz`
  - `wine-stable-5.0.1-osx64.tar.gz`
+ - `wine-staging-5.22-osx64.tar.7z` (includes workaround for [Bugzilla 49940](https://bugs.winehq.org/show_bug.cgi?id=49940))
  - `wine-staging-5.21-osx64.tar.7z` (includes workaround for [Bugzilla 49940](https://bugs.winehq.org/show_bug.cgi?id=49940))
  - `wine-staging-5.20-osx64.tar.7z` (includes workaround for [Bugzilla 49940](https://bugs.winehq.org/show_bug.cgi?id=49940))
  - `wine-staging-5.19-osx64.tar.7z`
@@ -44,9 +46,9 @@ First add my tap
 brew tap gcenx/wine
 ```
 ##### The tap provides;
-- `gcenx-wine-stable` (wine-stable-5.0.2-1)
-- `gcenx-wine-devel` (wine-devel-5.21)
-- `gcenx-wine-staging` (wine-staging-5.21)
+- `gcenx-wine-stable` (wine-stable-5.0.3)
+- `gcenx-wine-devel` (wine-devel-5.22)
+- `gcenx-wine-staging` (wine-staging-5.22)
 
 ##### Next select the desired wine package to be installed, for an example I'll select `gcenx-wine-stable`
 ```
@@ -57,12 +59,14 @@ This will install `Wine Stable` into `/Applications` and function as the officia
 #### How manually to install;
 Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine_builds/releases) unpack, now move the `Wine *` bundle to `/Applications` and use as you would a Winehq release.
 
+
 ## Build environment configuration;
-- CodeWeavers custom llvm/clang-8 (Wine Crossover only)
-- MacOSX10.13.sdk (with QuickTime.framework from MacOSX10.11.sdk)
-- Mingw-w64-v8
-- Mingw-gcc-10.2
-- Mingw-w64-binutils-2.35.1
+- _CodeWeavers custom llvm/clang-8_ (wine32on64 sources only)
+- XCode 11.3.1
+- MacOSX10.14.sdk (Patched in 32Bit support)
+- Mingw-w64-8.0.0
+- Mingw-gcc-10.2.0
+- Mingw-w64-binutils 2.35.1
 - Dependencies are build using macports with [macports-wine](https://github.com/Gcenx/macports-wine)
 - XQuartz-2.7.7 was used for X11
 - Build system includes fixes for [Bug 49199](https://bugs.winehq.org/show_bug.cgi?id=49199)
@@ -82,7 +86,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 --without-fontconfig \
 --with-freetype \
 --with-gcrypt \
---without-gettext \
+--with-gettext \
 --without-gettextpo \
 --without-gphoto \
 --with-glu \
@@ -138,7 +142,12 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 ```
 
 ## gecko & mono are included;
-`wine-gecko` & `wine-mono` are included within these custom `Wine-*` packages, usually wine(64) will download and then install .msi packages into each and every wineprefix increasing prefix size instead the "shared" packages were used to help reduce prefix size
+`wine-gecko` & `wine-mono` are included within these custom `Wine-*` packages, usually wine(64/32on64) will download and then install .msi packages into each and every wineprefix increasing prefix size instead the "shared" packages are used to reduce prefix size.
 
-## Don't open issues for wine issues!
-Any wine bugs or regressions report those to [Winehq Bugzilla](https://bugs.winehq.org/), for package related issues related to missing dylib or a dylib refusing to load on OS X 10.9 then open an issue so it can be resolved.
+## Don't open wine issues here!;
+Wine bugs/regressions need to be reported via [Winehq Bugzilla](https://bugs.winehq.org/)\
+Packaging related issues should be opened here.\
+As I’m not too familiar with brew any issues with the provided casks/formulas should be reported.
+
+### Found this helpful?
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/gcenx?locale.x=en_US)
