@@ -52,7 +52,7 @@ brew tap gcenx/wine
 
 ##### Next select the desired wine package to be installed, for an example I'll select `gcenx-wine-stable`
 ```
-brew cask install --no-quarantine gcenx-wine-stable
+brew install --cask --no-quarantine gcenx-wine-stable
 ```
 This will install `Wine Stable` into `/Applications` and function as the official brew cask would (but _doesn't_ require XQuartz)
 
