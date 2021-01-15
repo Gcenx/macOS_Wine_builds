@@ -18,10 +18,12 @@ Currently Winehq is not providing macOS builds until they replace the now deprec
  - `wine-devel-5.12-osx64.tar.gz`
  - `wine-devel-5.11-osx64.tar.gz`
  - `wine-devel-5.9-osx64.tar.gz`
+ - `wine-stable-6.0-osx64.tar.xz`
  - `wine-stable-5.0.3-osx64.tar.xz` (includes patch for [Bugzilla 49774](https://bugs.winehq.org/show_bug.cgi?id=49774) & workaround for [Bugzilla 49940](https://bugs.winehq.org/show_bug.cgi?id=49940))
  - `wine-stable-5.0.2-1-osx64.tar.gz` (includes patch for [Bugzilla 49774](https://bugs.winehq.org/show_bug.cgi?id=49774))
  - `wine-stable-5.0.2-osx64.tar.gz`
  - `wine-stable-5.0.1-osx64.tar.gz`
+ - `wine-staging-6.0-osx64.tar.xz`
  - `wine-staging-5.22-osx64.tar.xz` (includes workaround for [Bugzilla 49940](https://bugs.winehq.org/show_bug.cgi?id=49940))
  - `wine-staging-5.21-osx64.tar.7z` (includes workaround for [Bugzilla 49940](https://bugs.winehq.org/show_bug.cgi?id=49940))
  - `wine-staging-5.20-osx64.tar.7z` (includes workaround for [Bugzilla 49940](https://bugs.winehq.org/show_bug.cgi?id=49940))
