@@ -34,7 +34,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 - MacOSX10.14.sdk (Patched in 32Bit support)
 - Mingw-w64-8.0.0
 - Mingw-gcc-10.2.0
-- Mingw-w64-binutils 2.35.1
+- Mingw-w64-binutils 2.36
 - Dependencies are build using macports with [macports-wine](https://github.com/Gcenx/macports-wine)
 - XQuartz-2.7.7 was used for X11
 - Build system includes fixes for [Bug 49199](https://bugs.winehq.org/show_bug.cgi?id=49199)
@@ -57,15 +57,14 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 --with-gettext \
 --without-gettextpo \
 --without-gphoto \
---with-glu \
 --with-gnutls \
 --without-gsm \
 --without-gssapi \
 --with-gstreamer \
---without-gtk3 \
 --without-hal \
 --without-inotify \
 --with-jpeg \
+--with-jxrlib \
 --without-krb5 \
 --with-ldap \
 --with-mingw \
@@ -91,7 +90,6 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 --without-xattr \
 --with-xml \
 --with-xslt \
---without-va  \
 --with-osmesa \
 --with-xcomposite \
 --with-xcursor \
