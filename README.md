@@ -86,7 +86,6 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 --with-unwind \
 --with-usb \
 --without-v4l2 \
---without-vkd3d \
 --without-xattr \
 --with-xml \
 --with-xslt \
