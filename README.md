@@ -116,4 +116,4 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 ## Don't open wine issues here!;
 Wine bugs/regressions need to be reported via [Winehq Bugzilla](https://bugs.winehq.org/)\
 Packaging related issues should be opened here.\
-As I’m not too familiar with brew any issues with the provided casks/formulas should be reported.
+As I’m not too familiar with brew so any issues with the provided casks/formulas should be reported.
