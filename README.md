@@ -34,10 +34,14 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 - MacOSX10.14.sdk (Patched in 32Bit support)
 - Mingw-w64-8.0.0
 - Mingw-gcc-10.2.0
-- Mingw-w64-binutils 2.36
-- Dependencies are build using macports with [macports-wine](https://github.com/Gcenx/macports-wine)
+- Mingw-w64-binutils 2.36.1
 - XQuartz-2.7.7 was used for X11
 - Build system includes fixes for [Bug 49199](https://bugs.winehq.org/show_bug.cgi?id=49199)
+
+### Dependencies are build using;
+- Macports
+- [macports-gstreamer1](https://github.com/Gcenx/macports-gstreamer1) overlay
+- [macports-wine](https://github.com/Gcenx/macports-wine) overlay
 
 ## Configure Options used;
 ```
