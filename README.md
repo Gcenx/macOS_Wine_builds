@@ -39,9 +39,9 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 - Build system includes fixes for [Bug 49199](https://bugs.winehq.org/show_bug.cgi?id=49199)
 
 ### Dependencies are build using;
-- Macports
 - [macports-gstreamer1](https://github.com/Gcenx/macports-gstreamer1) overlay
 - [macports-wine](https://github.com/Gcenx/macports-wine) overlay
+- Macports
 
 ## Configure Options used;
 ```
