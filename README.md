@@ -32,7 +32,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 - _CodeWeavers custom llvm/clang-8_ (wine32on64 sources only)
 - XCode 11.3.1
 - MacOSX10.14.sdk (Patched in 32Bit support)
-- Mingw-w64-8.0.2
+- Mingw-w64-9.0.0
 - Mingw-gcc-11.1.0
 - Mingw-w64-binutils 2.36.1
 - XQuartz-2.8.1 was used for X11
