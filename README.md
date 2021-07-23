@@ -8,6 +8,13 @@ Currently Winehq is not providing macOS builds until they replace the now deprec
 These will function like macOS pkg releases but are packaged within a `.tar.xz`.\
 I won't be making pkg installer, these packages include `wine` and `wine64`
 
+#### Minimum requirement of macOS High Sierra
+macOS High Sierra was released in 2017 and this is the last version of macOS to provide\
+32Bit support within it's SDK the majority of wine development focuse is aimed at this.
+
+If you need the latest versions of wine on something older you can use [macports-wine](https://github.com/Gcenx/macports-wine) my Macports overlay\
+that allows compiling the last versions of wine from source on OS X 10.8 and later. This avoids complications with libraries as these will be built for your OS.
+
 ### How to install using brew;
 First add my tap
 ```
