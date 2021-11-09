@@ -1,42 +1,42 @@
-# Winehq style macOS Builds
+# Winehq WIP macOS Builds
 
-Currently Winehq is not providing macOS builds until they replace the now deprecated builder, as a temporary measure I'll attach `wine-stable`, `wine-devel` & `wine-staging` builds here that includes most dependencies, meaning XQuartz-2.7.7 or later is not required unless you desire to use X11 over macDriver.
+These builds won't be uploaded directly to Winehq until were happy with them, on our current timeline the plan is to have these pushed to Winehq around Wine-7.0.
 
 ![Downloads count](https://img.shields.io/github/downloads/gcenx/macOS_Wine_builds/total.svg)
  
 #### _Please Note;_
 These will function like macOS pkg releases but are packaged within a `.tar.xz`.\
-I won't be making pkg installer, these packages include `wine` and `wine64`
+I won't be providing a pkg installer, these packages include `wine` and `wine64`
 
 #### Minimum requirement of macOS High Sierra
 macOS High Sierra was released in 2017 and this is the last version of macOS to provide\
 32Bit support within it's SDK the majority of wine development focuse is aimed at this.
 
 If you need the latest versions of wine on something older you can use [macports-wine](https://github.com/Gcenx/macports-wine) my Macports overlay\
-that allows compiling the last versions of wine from source on OS X 10.8 and later. This avoids complications with libraries as these will be built for your OS.
+allows compiling the last versions of wine from source on OS X 10.8 and later. This avoids complications with libraries as these will be built for your OS.
 
 ### How to install using brew;
-First add my tap
+First add `cask-versons`
 ```
-brew tap gcenx/wine
+brew tap homebrew/cask-versions
 ```
-##### The tap provides;
-- `gcenx-wine-stable`
-- `gcenx-wine-devel`
-- `gcenx-wine-staging`
 
-##### Next select the desired wine package to be installed, for an example I'll select `gcenx-wine-stable`
+##### Available packages;
+- `wine-stable`
+- `wine-devel`
+- `wine-staging`
+
+##### Next select the desired wine package to be installed, for an example I'll select `wine-stable`
 ```
-brew install --cask --no-quarantine gcenx-wine-stable
+brew install --cask --no-quarantine wine-stable
 ```
-This will install `Wine Stable` into `/Applications` and function as the official brew cask would (but _doesn't_ require XQuartz)
+This will install `Wine Stable` into `/Applications`
 
 #### How manually to install;
 Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine_builds/releases) unpack, now move the `Wine *` bundle to `/Applications` and use as you would a Winehq release.
 
 
 ## Build environment configuration;
-- _CodeWeavers custom llvm/clang-8_ (wine32on64 sources only)
 - XCode _v11.3.1_
 - MacOSX10.14.sdk (Patched in 32Bit support)
 - Mingw-w64 _v9.0.0_
@@ -118,7 +118,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 ```
 
 ## gecko & mono are included;
-`wine-gecko` & `wine-mono` are included within these custom `Wine-*` packages, usually wine(64/32on64) will download and then install .msi packages into each and every wineprefix increasing prefix size instead the "shared" packages are used to reduce prefix size.
+`wine-gecko` & `wine-mono` are included within these custom `Wine-*` packages, usually wine(64) will download and then install .msi packages into each and every wineprefix increasing prefix size instead the "shared" packages are used to reduce prefix size.
 
 ## Don't open wine issues here!;
 Wine bugs/regressions need to be reported via [Winehq Bugzilla](https://bugs.winehq.org/)\
