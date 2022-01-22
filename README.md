@@ -1,6 +1,6 @@
 # Winehq WIP macOS Builds
 
-These builds won't be uploaded directly to Winehq until were happy with them, on our current timeline the plan is to have these pushed to Winehq around Wine-7.0.
+These builds won't be uploaded directly to Winehq until were happy with them, on our current timeline is to have these pushed to Winehq around Wine-7.x.
 
 ![Downloads count](https://img.shields.io/github/downloads/gcenx/macOS_Wine_builds/total.svg)
  
@@ -13,7 +13,7 @@ macOS High Sierra was released in 2017 and this is the last version of macOS to 
 32Bit support within it's SDK the majority of wine development focuse is aimed at this.
 
 If you need the latest versions of wine on something older you can use [macports-wine](https://github.com/Gcenx/macports-wine) my Macports overlay\
-allows compiling the last versions of wine from source on OS X 10.8 and later. This avoids complications with libraries as these will be built for your OS.
+that allows compiling the last versions of wine from source on OS X 10.8 and later. This avoids complications with libraries as these will be built for your OS.
 
 ### How to install using brew;
 First add `cask-versons`
@@ -35,10 +35,10 @@ This will install `Wine Stable` into `/Applications`
 #### How manually to install;
 Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine_builds/releases) unpack, now move the `Wine *` bundle to `/Applications` and use as you would a Winehq release.
 
-
 ## Build environment configuration;
-- XCode _v11.3.1_
-- MacOSX10.14.sdk (Patched in 32Bit support)
+- XCode _v11.3.1_  (cctools 949.0.1/ ld64 530/ LLVM 8.0.0)
+- MacOSX10.14.sdk (macOS Mojave sysroot for i386)
+- MacOSX10.13.sdk (required by macports-port to compile for i386)
 - Mingw-w64 _v9.0.0_
 - Mingw-gcc _v11.2.0_
 - Mingw-binutils _v2.37_
@@ -48,7 +48,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 ### Dependencies are build using;
 - [macports-gstreamer1](https://github.com/Gcenx/macports-gstreamer1) overlay
 - [macports-wine](https://github.com/Gcenx/macports-wine) overlay
-- Macports
+- [macports](https://www.macports.org/)
 
 ## Configure Options used;
 ```
@@ -56,51 +56,36 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 --disable-tests \
 --without-alsa \
 --without-capi \
---with-cms \
 --with-coreaudio \
 --with-cups \
---without-curses \
 --without-dbus \
---with-faudio \
 --without-fontconfig \
 --with-freetype \
---with-gcrypt \
 --with-gettext \
 --without-gettextpo \
 --without-gphoto \
 --with-gnutls \
---without-gsm \
 --without-gssapi \
 --with-gstreamer \
---without-hal \
 --without-inotify \
---with-jpeg \
---with-jxrlib \
 --without-krb5 \
 --with-ldap \
 --with-mingw \
---with-mpg123 \
 --without-netapi \
 --with-openal \
 --with-opencl \
---with-opengl  \
+--with-opengl \
+--with-osmesa \
 --without-oss \
 --with-pcap \
---with-png \
 --with-pthread \
 --without-pulse \
---without-quicktime \
 --without-sane \
 --with-sdl \
---with-tiff \
 --without-udev \
 --with-unwind \
 --with-usb \
 --without-v4l2 \
---without-xattr \
---with-xml \
---with-xslt \
---with-osmesa \
 --with-xcomposite \
 --with-xcursor \
 --with-xfixes \
@@ -122,5 +107,4 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 
 ## Don't open wine issues here!;
 Wine bugs/regressions need to be reported via [Winehq Bugzilla](https://bugs.winehq.org/)\
-Packaging related issues should be opened here.\
-As I’m not too familiar with brew so any issues with the provided casks/formulas should be reported.
+Packaging related issues should be reported here.
