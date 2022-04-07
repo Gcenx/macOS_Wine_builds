@@ -36,12 +36,12 @@ This will install `Wine Stable` into `/Applications`
 Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine_builds/releases) unpack, now move the `Wine *` bundle to `/Applications` and use as you would a Winehq release.
 
 ## Build environment configuration;
-- XCode _v11.3.1_  (cctools 949.0.1/ ld64 530/ LLVM 8.0.0)
-- MacOSX10.14.sdk (macOS Mojave sysroot for i386)
-- MacOSX10.13.sdk (required by macports-port to compile for i386)
-- Mingw-w64 _v9.0.0_
+- cctools 973.0.1/ ld64 609/ LLVM 13.0.0
+- MacOSX10.14.sdk (macOS Mojave sysroot i386)
+- MacOSX10.13.sdk (required by macports-port to compile i386)
+- Mingw-w64 _v10.0.0_
 - Mingw-gcc _v11.2.0_
-- Mingw-binutils _v2.37_
+- Mingw-binutils _v2.38_
 - XQuartz _v2.8.1_ was used for X11
 - Build system includes fixes for [Bug 49199](https://bugs.winehq.org/show_bug.cgi?id=49199)
 
