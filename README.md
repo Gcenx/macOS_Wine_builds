@@ -1,6 +1,6 @@
-# Winehq WIP macOS Builds
+# Winehq macOS Builds
 
-These builds won't be uploaded directly to Winehq until were happy with them, on our current timeline is to have these pushed to Winehq around Wine-7.x.
+Packages won't be pushed to Winehq until [bug 52354](https://bugs.winehq.org/show_bug.cgi?id=52354) is resolved.
 
 ![Downloads count](https://img.shields.io/github/downloads/gcenx/macOS_Wine_builds/total.svg)
  
@@ -36,7 +36,7 @@ This will install `Wine Stable` into `/Applications`
 Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine_builds/releases) unpack, now move the `Wine *` bundle to `/Applications` and use as you would a Winehq release.
 
 ## Build environment configuration;
-- cctools 973.0.1/ ld64 609/ LLVM 13.0.0
+- cctools 973.0.1/ ld64 609/ LLVM 14.0.0
 - MacOSX10.14.sdk (macOS Mojave sysroot i386)
 - MacOSX10.13.sdk (required by macports-port to compile i386)
 - Mingw-w64 _v10.0.0_
