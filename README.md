@@ -40,7 +40,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 - MacOSX10.14.sdk (macOS Mojave sysroot i386)
 - MacOSX10.13.sdk (required by macports-port to compile i386)
 - Mingw-w64 _v10.0.0_
-- Mingw-gcc _v11.2.0_
+- Mingw-gcc _v12.1.0_
 - Mingw-binutils _v2.38_
 - XQuartz _v2.8.1_ was used for X11
 - Build system includes fixes for [Bug 49199](https://bugs.winehq.org/show_bug.cgi?id=49199)
