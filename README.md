@@ -16,7 +16,7 @@ If you need the latest versions of wine on something older you can use [macports
 that allows compiling the last versions of wine from source on OS X 10.8 and later. This avoids complications with libraries as these will be built for your OS.
 
 ### How to install using brew;
-First add `cask-versons`
+First add `cask-versions`
 ```
 brew tap homebrew/cask-versions
 ```
