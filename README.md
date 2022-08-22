@@ -84,7 +84,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 --with-sdl \
 --without-udev \
 --with-unwind \
---with-usb \
+--without-usb \
 --without-v4l2 \
 --with-xcomposite \
 --with-xcursor \
