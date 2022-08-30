@@ -42,7 +42,6 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 - Mingw-w64 _v10.0.0_
 - Mingw-gcc _v12.2.0_
 - Mingw-binutils _v2.39_
-- XQuartz _v2.8.1_ was used for X11
 - Build system includes fixes for [Bug 49199](https://bugs.winehq.org/show_bug.cgi?id=49199)
 
 ### Dependencies are build using;
@@ -75,7 +74,6 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 --with-openal \
 --with-opencl \
 --with-opengl \
---with-osmesa \
 --without-oss \
 --with-pcap \
 --with-pthread \
@@ -86,20 +84,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 --with-unwind \
 --without-usb \
 --without-v4l2 \
---with-xcomposite \
---with-xcursor \
---with-xfixes \
---with-xinerama \
---with-xinput \
---with-xinput2 \
---with-xrandr \
---with-xrender \
---with-xshape \
---with-xshm \
---with-xxf86vm \
---with-x \
---x-include=/opt/X11/include \
---x-lib=/opt/X11/lib
+--without-x
 ```
 
 ## gecko & mono are included;
