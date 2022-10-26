@@ -35,7 +35,7 @@ This will install `Wine Stable` into `/Applications`
 Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine_builds/releases) unpack, now move the `Wine *` bundle to `/Applications` and use as you would a Winehq release.
 
 ## Build environment configuration;
-- cctools 973.0.1/ ld64 609/ LLVM 14.0.0
+- cctools 973.0.1/ ld64 609
 - MacOSX10.14.sdk (macOS Mojave sysroot i386)
 - MacOSX10.13.sdk (required by macports-port to compile i386)
 - Mingw-w64 _v10.0.0_
@@ -44,7 +44,6 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 - Build system includes fixes for [Bug 49199](https://bugs.winehq.org/show_bug.cgi?id=49199)
 
 ### Dependencies are build using;
-- [macports-gstreamer1](https://github.com/Gcenx/macports-gstreamer1) overlay
 - [macports-wine](https://github.com/Gcenx/macports-wine) overlay
 - [macports](https://www.macports.org/)
 
