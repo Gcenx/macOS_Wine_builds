@@ -69,7 +69,6 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 --with-ldap \
 --with-mingw \
 --without-netapi \
---with-openal \
 --with-opencl \
 --with-opengl \
 --without-oss \
