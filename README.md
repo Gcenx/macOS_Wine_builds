@@ -66,7 +66,6 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 --with-gstreamer \
 --without-inotify \
 --without-krb5 \
---with-ldap \
 --with-mingw \
 --without-netapi \
 --with-opencl \
