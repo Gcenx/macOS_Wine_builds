@@ -1,7 +1,5 @@
 # Winehq macOS Builds
 
-Packages won't be pushed to Winehq until [bug 52354](https://bugs.winehq.org/show_bug.cgi?id=52354) is resolved.
-
 ![Downloads count](https://img.shields.io/github/downloads/gcenx/macOS_Wine_builds/total.svg)
  
 #### _Please Note;_
@@ -11,9 +9,7 @@ I won't be providing a pkg installer, these packages include `wine` and `wine64`
 #### Minimum requirement of macOS Mojave
 macOS High Sierra won't work due to [bug 52354](https://bugs.winehq.org/show_bug.cgi?id=52354)
 
-If you need the latest versions of wine on something older you can use [macports-wine](https://github.com/Gcenx/macports-wine) my Macports overlay\
-that allows compiling the last versions of wine from source on OS X 10.8 and later. This avoids complications with libraries as these will be built for your OS.
-
+If you need the latest versions of wine on something older use [macports-wine](https://github.com/Gcenx/macports-wine)
 ### How to install using brew;
 First add `cask-versions`
 ```
