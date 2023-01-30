@@ -31,11 +31,11 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 
 ## Build environment configuration;
 - cctools 973.0.1/ ld64 609
-- MacOSX10.14.sdk (macOS Mojave sysroot i386)
-- MacOSX10.13.sdk (required by macports-port to compile i386)
+- MacOSX10.14u.sdk (macOS Mojave DevSDK for i386)
+- MacOSX10.13.sdk (required by macports-port to compile for i386)
 - Mingw-w64 _v10.0.0_
 - Mingw-gcc _v12.2.0_
-- Mingw-binutils _v2.39_
+- Mingw-binutils _v2.40_
 - Build system includes fixes for [Bug 49199](https://bugs.winehq.org/show_bug.cgi?id=49199)
 
 ### Dependencies are build using;
