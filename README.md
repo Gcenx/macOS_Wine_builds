@@ -6,10 +6,9 @@
 These will function like macOS pkg releases but are packaged within a `.tar.xz`.\
 I won't be providing a pkg installer, these packages include `wine` and `wine64`
 
-#### Minimum requirement of macOS Mojave
-macOS High Sierra won't work due to [bug 52354](https://bugs.winehq.org/show_bug.cgi?id=52354)
-
+#### Minimum requirement of macOS High Sierra
 If you need the latest versions of wine on something older use [macports-wine](https://github.com/Gcenx/macports-wine)
+
 ### How to install using brew;
 First add `cask-versions`
 ```
