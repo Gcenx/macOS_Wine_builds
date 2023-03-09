@@ -85,6 +85,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 --with-opengl \
 --without-oss \
 --with-pcap \
+--without-pcsclite \
 --with-pthread \
 --without-pulse \
 --without-sane \
