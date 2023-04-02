@@ -94,6 +94,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 --with-unwind \
 --without-usb \
 --without-v4l2 \
+--without-wayland \
 --without-x
 ```
 
