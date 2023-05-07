@@ -11,7 +11,7 @@ I won't be providing a pkg installer, these packages include `wine` and `wine64`
 <br>
 
 #### Minimum requirement of macOS High Sierra
-If you need the latest versions of wine on something legacy veraions of macOS use [macports-wine](https://github.com/Gcenx/macports-wine)
+If you need the latest versions of wine on legacy versions of macOS use [macports-wine](https://github.com/Gcenx/macports-wine)
 
 <br>
 
@@ -54,7 +54,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 
 <br>
 
-### Dependencies are build using;
+### Dependencies are built using;
 - [macports-wine](https://github.com/Gcenx/macports-wine) overlay
 - [macports](https://www.macports.org/)
 
