@@ -76,8 +76,8 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 --without-gphoto \
 --with-gnutls \
 --without-gssapi \
---without-gstreamer \
---without-inotify \
+--with-gstreamer \
+--with-inotify \
 --without-krb5 \
 --with-mingw \
 --without-netapi \
