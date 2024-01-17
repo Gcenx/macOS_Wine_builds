@@ -44,12 +44,10 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 <br>
 
 ## Build environment configuration;
-- cctools 973.0.1/ ld64 609
-- MacOSX10.14u.sdk (macOS Mojave DevSDK for i386)
-- MacOSX10.13.sdk (required by macports-port to compile for i386)
+- Xcode 15
 - Mingw-w64 _v11.0.1_
-- Mingw-gcc _v13.1.0_
-- Mingw-binutils _v2.40_
+- Mingw-gcc _v13.2.0_
+- Mingw-binutils _v2.41_
 - Build system includes fixes for [Bug 49199](https://bugs.winehq.org/show_bug.cgi?id=49199)
 
 <br>
@@ -64,6 +62,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 ```
 --disable-option-checking \
 --disable-tests \
+--enable-archs=i386,x86_64 \
 --without-alsa \
 --without-capi \
 --with-coreaudio \
@@ -85,7 +84,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 --with-opengl \
 --without-oss \
 --with-pcap \
---without-pcsclite \
+--with-pcsclite \
 --with-pthread \
 --without-pulse \
 --without-sane \
@@ -94,6 +93,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 --with-unwind \
 --without-usb \
 --without-v4l2 \
+--with-vulkan \
 --without-wayland \
 --without-x
 ```
