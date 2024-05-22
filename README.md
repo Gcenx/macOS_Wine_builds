@@ -16,21 +16,15 @@ If you need the latest versions of wine on legacy versions of macOS use [macport
 <br>
 
 ### How to install using brew;
-First add `cask-versions`
-```
-brew tap homebrew/cask-versions
-```
-
-<br>
 
 ##### Available packages;
 - `wine-stable`
-- `wine-devel`
-- `wine-staging`
+- `wine@devel`
+- `wine@staging`
 
 <br>
 
-##### Next select the desired wine package to be installed, for an example I'll select `wine-stable`
+##### Select the desired wine package to be installed, for an example I'll select `wine-stable`
 ```
 brew install --cask --no-quarantine wine-stable
 ```
