@@ -6,7 +6,7 @@
 
 #### _Please Note;_
 These will function like macOS pkg releases but are packaged within a `.tar.xz`.\
-I won't be providing a pkg installer, these packages include `wine` and `wine64`
+I won't be providing a pkg installer, these packages prove `wine` and `wine64`
 
 <br>
 
@@ -38,10 +38,10 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 <br>
 
 ## Build environment configuration;
-- Xcode 15
+- Xcode 15.4
 - Mingw-w64 _v11.0.1_
-- Mingw-gcc _v13.2.0_
-- Mingw-binutils _v2.41_
+- Mingw-gcc _v14.1.0_
+- Mingw-binutils _v2.42_
 - Build system includes fixes for [Bug 49199](https://bugs.winehq.org/show_bug.cgi?id=49199)
 
 <br>
