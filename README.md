@@ -39,7 +39,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 
 ## Build environment configuration;
 - Xcode 15.4
-- Mingw-w64 _v11.0.1_
+- Mingw-w64 _v12_
 - Mingw-gcc _v14.1.0_
 - Mingw-binutils _v2.42_
 - Build system includes fixes for [Bug 49199](https://bugs.winehq.org/show_bug.cgi?id=49199)
