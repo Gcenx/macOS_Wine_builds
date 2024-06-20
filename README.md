@@ -10,11 +10,6 @@ I won't be providing a pkg installer, these packages prove `wine` and `wine64`
 
 <br>
 
-#### Minimum requirement of macOS High Sierra
-If you need the latest versions of wine on legacy versions of macOS use [macports-wine](https://github.com/Gcenx/macports-wine)
-
-<br>
-
 ### How to install using brew;
 
 ##### Available packages;
@@ -39,7 +34,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 
 ## Build environment configuration;
 - Xcode 15.4
-- Mingw-w64 _v12_
+- Mingw-w64 _v12.0.0_
 - Mingw-gcc _v14.1.0_
 - Mingw-binutils _v2.42_
 - Build system includes fixes for [Bug 49199](https://bugs.winehq.org/show_bug.cgi?id=49199)
