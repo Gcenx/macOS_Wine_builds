@@ -6,7 +6,7 @@
 
 #### _Please Note;_
 These will function like macOS pkg releases but are packaged within a `.tar.xz`.\
-I won't be providing a pkg installer, these packages prove `wine` and `wine64`
+I won't be providing a pkg installer, these packages prove `wine` that works for 32 & 64-bit windows binaires.
 
 <br>
 
