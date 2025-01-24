@@ -57,6 +57,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 --with-coreaudio \
 --with-cups \
 --without-dbus \
+--with-ffmpeg \
 --without-fontconfig \
 --with-freetype \
 --with-gettext \
