@@ -33,7 +33,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 <br>
 
 ## Build environment configuration;
-- Xcode 16
+- Xcode 16.2
 - Mingw-w64 _v12.0.0_
 - Mingw-gcc _v14.2.0_
 - Mingw-binutils _v2.43.1_
