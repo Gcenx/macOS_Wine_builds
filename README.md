@@ -10,7 +10,7 @@
 
 <br>
 
-### How to install `wine-stable` using [brew]((https://brew.sh/)
+### How to install `wine-stable` using [brew](https://brew.sh/)
 ```
 brew install --cask --no-quarantine wine-stable
 ```
