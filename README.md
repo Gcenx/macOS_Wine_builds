@@ -28,27 +28,25 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 
 <br>
 
-## Build environment
+## Dependencies come from
+- [MacPorts](https://www.macports.org/)
+- [macports-wine](https://github.com/Gcenx/macports-wine) my MacPorts overlay
+
 ### Build dependencies 
 - bison
 - ccache
+- gstreamer-development
 - mingw-w64
 - pkgconfig
 - Xcode
 
 ### Runtime dependencies
 - freetype
-- GStreamer.framework
-- gnutls
+- gstreamer-runtime
+- gnutls-devel
 - libinotify
 - libsdl2
 - moltenvk
-
-<br>
-
-### Dependencies are built using
-- [MacPorts](https://www.macports.org/)
-- [macports-wine](https://github.com/Gcenx/macports-wine) my MacPorts overlay
 
 <br>
 
