@@ -54,6 +54,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 --build=x86_64-apple-darwin \
 --enable-archs=i386,x86_64 \
 --disable-tests \
+--disable-winebth_sys \
 --without-alsa \
 --without-capi \
 --with-coreaudio \
