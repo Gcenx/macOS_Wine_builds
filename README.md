@@ -73,7 +73,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 --with-mingw \
 --without-netapi \
 --with-opencl \
---with-opengl \
+--without-opengl \
 --without-oss \
 --with-pcap \
 --with-pcsclite \
