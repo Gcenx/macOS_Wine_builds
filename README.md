@@ -42,7 +42,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 ### Runtime dependencies
 - freetype
 - gstreamer-runtime
-- gnutls-devel
+- gnutls
 - libinotify
 - libsdl2
 - moltenvk
