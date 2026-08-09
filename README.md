@@ -46,6 +46,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 - libinotify
 - libsdl2
 - moltenvk
+- vulkan-loader
 
 <br>
 
