@@ -85,6 +85,7 @@ Download the desired package from [releases](https://github.com/Gcenx/macOS_Wine
 --without-udev \
 --without-usb \
 --without-v4l2 \
+--without-va \
 --with-vulkan \
 --without-wayland \
 --without-x
